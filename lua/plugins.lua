@@ -54,6 +54,7 @@ return packer.startup(function(use)
 
   -- Colorscheme
   use 'sainnhe/gruvbox-material'                      -- Gruvbox with Material Palette
+  use 'folke/tokyonight.nvim'                         -- Tokyo Night Theme
 
   -- Auto-completion
   use "hrsh7th/nvim-cmp"                              -- Completion (cmp) plugin

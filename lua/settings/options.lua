@@ -23,7 +23,7 @@ opt('o', 'matchtime', 0)                 -- Tenths of a second to show the match
 opt('o', 'showtabline', 2)               -- Always show tabs
 opt('o', 'tabstop', 2)                   -- Insert 2 spaces for a tab
 opt('o', 'background', 'dark')           -- Tells vim that the background is dark
-opt('o', 'ttimeoutlen', 1000)            -- Time in ms to wait for a key code sequence to complete
+opt('o', 'ttimeoutlen', 500)            -- Time in ms to wait for a key code sequence to complete
 opt('o', 'termguicolors', true)          -- Check if terminal has 24-bit color support
 opt('o', 'fileencoding', 'utf-8')        -- Encoding written to a file
 opt('o', 'listchars', 'tab:│ ,trail:·')  -- Strings to use in 'list' mode and :list command
